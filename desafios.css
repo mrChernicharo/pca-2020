@@ -107,3 +107,35 @@ h1.main-title {
 .footer-right {
   margin-right: 16px;
 }
+.main-desafios {
+  color:black;
+  font-size: 12px;
+  font-family: Arial;
+  padding: auto;
+  text-align: justify;
+
+
+}
+.main-desafios1 {
+  color:black;
+  font-size: 12px;
+  font-family: Arial;
+  padding: auto;
+  text-align: justify;
+}
+
+.main-desafios2 {
+  color:black;
+  font-size: 12px;
+  font-family: Arial;
+  padding: auto;
+  text-align: justify;
+}
+
+.main-desafios3 {
+  color:black;
+  font-size: 12px;
+  font-family: Arial;
+  padding: auto;
+  text-align: justify;
+}
