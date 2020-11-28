@@ -65,7 +65,7 @@ a.a-link {
   background-color: #fff;
   margin: 3px auto 0;
   width: 90vw;
-  height: calc(100vh - 68px);
+  /* height: calc(100vh - 68px); */
   padding-top: 10px;
 }
 .current-page {
@@ -79,8 +79,39 @@ a.a-link {
 }
 h1.main-title {
   /* border: 1px solid #aaa; */
-  margin: 0;
+  margin: 0 0 32px;
   text-align: center;
+}
+
+.subheader {
+  text-align: center;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+  max-width: 100%;
+  min-width: 400px;
+  min-height: 100px;
+}
+
+img {
+  max-width: 800px;
+}
+
+q {
+  font-size: 20px;
+}
+
+span.citation {
+  color: #919191;
+  position: absolute;
+  right: 15px;
+  font-size: 16px;
+}
+.filler {
+  height: 80px;
 }
 
 /**************************************************/
@@ -89,7 +120,7 @@ h1.main-title {
 
 .footer {
   /* border: 1px solid #aaa; */
-  position: absolute;
+  position: fixed;
   bottom: 0;
   height: 36px;
   width: calc(100vw - 0.01px);

@@ -83,13 +83,26 @@ h1.main-title {
   text-align: center;
 }
 
+img {
+  width: 400px;
+}
+
+.nissan {
+  display: flex;
+  justify-content: center;
+}
+
+.jac {
+  display: flex;
+}
+
 /**************************************************/
 /******************* FOOTER ***********************/
 /**************************************************/
 
 .footer {
   /* border: 1px solid #aaa; */
-  position: absolute;
+  position: fixed;
   bottom: 0;
   height: 36px;
   width: calc(100vw - 0.01px);
@@ -108,7 +121,7 @@ h1.main-title {
   margin-right: 16px;
 }
 /********************Subtitulo********************************/
-.main-h2 {
+/* .main-h2 {
   color: black;
   font-family: Arial;
   padding: auto;
@@ -137,9 +150,9 @@ h1.main-title {
   position: absolute;
   bottom: 455px;
   right: 449px;
-}
+} */
 /********************** Sub titulo*****************************/
-.main-iEV330P {
+/* .main-iEV330P {
   position: absolute;
 
   color: black;
@@ -168,4 +181,4 @@ h1.main-title {
   right: 850px;
   padding-left: 800px;
   height: 250px;
-}
+} */

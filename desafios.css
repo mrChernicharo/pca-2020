@@ -60,15 +60,21 @@ a.a-link {
 /**************** MAIN SECTION ********************/
 /**************************************************/
 
-
+.main-container {
+  /* border: 1px solid red; */
+  padding: 10px 0 0 10px;
+}
 .current-page {
   /* border: 1px solid #aaa; */
-  padding-left: 10px;
+  display: absolute;
+  /* width: 200px; */
+  padding: 0 20px 0;
+  /* top: 30px; */
   color: #aaa;
 }
+
 .main-content {
-  /* border: 1px solid #aaa; */
-  height: calc(100vh - 88px);
+  border: 1px solid transparent;
 }
 h1.main-title {
   /* border: 1px solid #aaa; */
@@ -76,13 +82,25 @@ h1.main-title {
   text-align: center;
 }
 
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 800px;
+}
+.bottom-filler {
+  height: 60px;
+}
 /**************************************************/
 /******************* FOOTER ***********************/
 /**************************************************/
 
 .footer {
   /* border: 1px solid #aaa; */
-  position: absolute;
+  position: fixed;
   bottom: 0;
   height: 36px;
   width: calc(100vw - 0.01px);
@@ -100,17 +118,15 @@ h1.main-title {
 .footer-right {
   margin-right: 16px;
 }
-.main-desafios {
+/* .main-desafios {
   color: black;
   font-size: 12px;
   font-family: Arial;
   padding: auto;
   text-align: justify;
-
-
 }
 .main-desafios1 {
-  color:black;
+  color: black;
   font-size: 12px;
   font-family: Arial;
   padding: auto;
@@ -118,7 +134,7 @@ h1.main-title {
 }
 
 .main-desafios2 {
-  color:black;
+  color: black;
   font-size: 12px;
   font-family: Arial;
   padding: auto;
@@ -126,9 +142,9 @@ h1.main-title {
 }
 
 .main-desafios3 {
-  color:black;
+  color: black;
   font-size: 12px;
   font-family: Arial;
   padding: auto;
   text-align: justify;
-}
+} */

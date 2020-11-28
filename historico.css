@@ -14,6 +14,9 @@ body {
 
 nav.header {
   /* border: 1px solid #aaa; */
+  position: fixed;
+  top: 0;
+  width: 100%;
   height: 34px;
   display: flex;
   justify-content: space-between;
@@ -63,10 +66,10 @@ a.a-link {
 .main-container {
   /* border: 1px solid #aaa; */
   background-color: #fff;
-  margin: 3px auto 0;
+  margin: 0 auto 0;
   width: 90vw;
-  height: calc(100vh - 68px);
-  padding-top: 10px;
+  /* height: calc(100vh - 68px); */
+  padding: 40px 0 30px;
 }
 .current-page {
   /* border: 1px solid #aaa; */
@@ -83,13 +86,21 @@ h1.main-title {
   text-align: center;
 }
 
+img {
+  width: 400px;
+}
+
+.bottom-filler {
+  height: 60px;
+}
+
 /**************************************************/
 /******************* FOOTER ***********************/
 /**************************************************/
 
 .footer {
   /* border: 1px solid #aaa; */
-  position: absolute;
+  position: fixed;
   bottom: 0;
   height: 36px;
   width: calc(100vw - 0.01px);
