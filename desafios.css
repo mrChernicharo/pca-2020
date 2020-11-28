@@ -60,14 +60,7 @@ a.a-link {
 /**************** MAIN SECTION ********************/
 /**************************************************/
 
-.main-container {
-  /* border: 1px solid #aaa; */
-  background-color: #fff;
-  margin: 3px auto 0;
-  width: 90vw;
-  height: calc(100vh - 68px);
-  padding-top: 10px;
-}
+
 .current-page {
   /* border: 1px solid #aaa; */
   padding-left: 10px;
@@ -108,7 +101,7 @@ h1.main-title {
   margin-right: 16px;
 }
 .main-desafios {
-  color:black;
+  color: black;
   font-size: 12px;
   font-family: Arial;
   padding: auto;
